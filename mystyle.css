@@ -1,0 +1,109 @@
+html, body{
+    margin: 0px;
+    background-color: rgb(20, 20, 20);
+    min-height: 100%;
+}
+
+body{height: 100vh;}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    min-height: 3vh;
+}
+
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.subnav {
+  overflow: hidden;
+  background-color: #444;
+  font-family: Arial;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  min-height: 2vh;
+}
+.subnav label{
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+
+}
+.subnav button{
+  transition-duration: 0.4s;
+  background: blue;
+  padding: 3px 14px 3px 14px;
+  color: white;
+}
+.subnav button:hover{
+  background-color: black;
+  color: white;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+
+.dropdown .dropbtn{
+    font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: blue;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #333;
+    color: white;
+  }
+
+  .active{
+    background-color: blue;
+  }
+
+  #canvas{
+    width: 100%;
+    min-height: 91.5vh;
+    background: blue;
+  }
